@@ -1,0 +1,48 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/irinaperesypkina/RiderProjects/BTree/UITestProject/UITestProject.csproj": {}
+  },
+  "projects": {
+    "/Users/irinaperesypkina/RiderProjects/BTree/UITestProject/UITestProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/irinaperesypkina/RiderProjects/BTree/UITestProject/UITestProject.csproj",
+        "projectName": "UITestProject",
+        "projectPath": "/Users/irinaperesypkina/RiderProjects/BTree/UITestProject/UITestProject.csproj",
+        "packagesPath": "/Users/irinaperesypkina/.nuget/packages/",
+        "outputPath": "/Users/irinaperesypkina/RiderProjects/BTree/UITestProject/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/irinaperesypkina/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "NUnit": {
+              "target": "Package",
+              "version": "[2.6.4, )"
+            },
+            "Xamarin.UITest": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}
